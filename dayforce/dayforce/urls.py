@@ -34,5 +34,5 @@ urlpatterns = [
     path('scheduleal/',views.scheduleal),
     path('calenderal/',views.calenderal),
     path('aboutal/',views.aboutal),
-    #path('moreal/',views.moreal),
+    
 ]

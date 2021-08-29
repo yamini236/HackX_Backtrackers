@@ -134,8 +134,7 @@ def scheduleal(request):
 def calenderal(request):
     return render(request,'calenderal.html')
 
-#def moreal(request):
- #   return render(request,'moreal.html')
+
 
 
 
