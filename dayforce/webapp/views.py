@@ -16,10 +16,10 @@ def login(request):
 		
 		i=request.POST['t2']
 		
-		if Register.objects.filter(name=n,password=i) :
-			
-			error1="no"
-		else:  
+		try:
+			 Register.objects.filter(name=n,password=i) 
+			 error1="no"
+		except:
 			error1="yes"
 	
 	d={'error1':error1}
